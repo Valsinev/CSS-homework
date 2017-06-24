@@ -1,0 +1,27 @@
+td {
+  border: 1px;
+  border-style: groove;
+  padding: 2000;
+}
+thead{
+  background-color: #00cc00;
+  color: white;
+}
+th{
+  border: 0.5px;
+  border-style: groove;
+}
+table{
+  width: 35%;
+  height: 170px;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+img{
+  width: 25px ;
+  height: 14px;
+}
+
+tr:nth-child(2n){
+  background-color: #eaeaea;
+}

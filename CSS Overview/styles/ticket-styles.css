@@ -1,0 +1,43 @@
+table {
+  background-color: #696969;
+}
+
+thead {
+  color: #cdcdcd;
+}
+
+.label {
+  position: fixed;
+  color: white;
+  font-style: italic;
+}
+
+.answer-status {
+  color: #ff9933;
+}
+
+span {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+#support {
+  color: red;
+  display: block;
+}
+
+td {
+  color: #a4a4a4;
+  font-weight: bold;
+}
+
+.led-green {
+display: inline-block;
+width: 12px;
+height: 12px;
+background-color: #66ff66;
+box-shadow: #000 0 -1px 7px 1px, inset #460 0 -1px 9px, #7D0 0 2px 12px;
+}

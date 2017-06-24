@@ -1,0 +1,18 @@
+body{
+  background-color: #bfbfbf;
+}
+header{
+  color: white;
+}
+header a{
+  color: white;
+}
+body>header{
+  text-align: center;
+}
+body>footer{
+  text-align: center;
+}
+nav ul{
+  list-style: none;
+}
