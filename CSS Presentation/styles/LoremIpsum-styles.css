@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "edwardian";
+  src: url("fonts/EdwardianScriptITC.ttf");
+}
+body{
+  font-size: 30px;
+  color: #0094ff;
+  font-family: consolas;
+}
+.ipsum p:first-letter{
+  font-family: "edwardian";
+  font-size: 60px;
+}
+.ipsum p:first-line{
+  font-weight: bold;
+}
