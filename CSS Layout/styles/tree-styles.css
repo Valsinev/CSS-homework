@@ -1,0 +1,33 @@
+.list-one .sublist  {
+  display: none;
+}
+
+.list-one, .sublist{
+  list-style: none;
+}
+
+.list-one li a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+
+.sublist span{
+  color: grey;
+}
+
+.list-one li:hover .sublist {
+  display: block;
+}
+
+.list-one li a:hover{
+  text-decoration: underline;
+}
+
+.list-one li{
+  width: 60px;
+}
+
+.sublist li{
+  width: 80px;
+}

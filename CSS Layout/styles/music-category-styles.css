@@ -1,0 +1,51 @@
+.img-one, .img-three, .img-two {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  float: left;
+  margin-top: 23px;
+  margin-left: 23px;
+}
+
+.container{
+  width: 50%;
+  background-color: lightgrey;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.img-two img {
+  width: 250px;
+  margin-left: -50px;
+}
+
+#category {
+  position: relative;
+  height: 200px;
+  margin: 100px;
+  background-color: white;
+}
+
+.listen-btn {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  right: 120px;
+  bottom: 10px;
+}
+
+.add-btn {
+  background-image: url('../images/button.png');
+	background-repeat: no-repeat;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+h1{
+  margin-left: 20px;
+}

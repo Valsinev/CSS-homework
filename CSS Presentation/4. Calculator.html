@@ -31,6 +31,38 @@
         <input type="text" name="submiter" value="">
       </div>
       <div class="binary-numbers">
+        <table>
+          <tr>
+            <td>0000</td>
+            <td>0000</td>
+            <td>0000</td>
+            <td>0000</td>
+            <td>0000</td>
+            <td>0000</td>
+            <td>0000</td>
+            <td>0000</td>
+          </tr>
+          <tr class="special">
+            <td colspan="4">63</td>
+            <td colspan="3">47</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <td>0000</td>
+            <td>0000</td>
+            <td>1000</td>
+            <td>0111</td>
+            <td>0001</td>
+            <td>1011</td>
+            <td>1011</td>
+            <td>0111</td>
+          </tr>
+          <tr class="special">
+            <td colspan="4">31</td>
+            <td colspan="3">15</td>
+            <td>0</td>
+          </tr>
+        </table>
       </div>
 
       <div class="converter">
@@ -51,9 +83,9 @@
       <div class="buttons">
         <table class="btn-layout">
           <tr>
-            <td><input type="button" name="" value=" " disabled></td>
+            <td><input class="disabled" type="button" name="" value=" " disabled></td>
             <td><input type="button" name="" value="Mod"></td>
-            <td><input type="button" name="" value="A" disabled></td>
+            <td><input class="disabled" type="button" name="" value="A" disabled></td>
             <td><input type="button" name="" value="MC"></td>
             <td><input type="button" name="" value="MR"></td>
             <td><input type="button" name="" value="MS"></td>
@@ -61,19 +93,19 @@
             <td><input type="button" name="" value="M-"></td>
           </tr>
           <tr>
-            <td><input type="button" name="" value="{"></td>
-            <td><input type="button" name="" value="}"></td>
-            <td><input type="button" name="" value="B" disabled></td>
+            <td><input type="button" name="" value="("></td>
+            <td><input type="button" name="" value=")"></td>
+            <td><input class="disabled" type="button" name="" value="B" disabled></td>
             <td><input type="button" name="" value="&#8592"></td>
             <td><input type="button" name="" value="CE"></td>
             <td><input type="button" name="" value="C"></td>
-            <td><input type="button" name="" value=" "></td>
-            <td><input type="button" name="" value=" "></td>
+            <td><input type="button" name="" value="&#177;"></td>
+            <td><input type="button" name="" value="&#8730;"></td>
           </tr>
           <tr>
-            <td><input type="button" name="" value=" "></td>
-            <td><input type="button" name="" value=" "></td>
-            <td><input type="button" name="" value="C" disabled></td>
+            <td><input type="button" name="" value="RoL"></td>
+            <td><input type="button" name="" value="RoR"></td>
+            <td><input class="disabled" type="button" name="" value="C" disabled></td>
             <td><input type="button" name="" value="7"></td>
             <td><input type="button" name="" value="8"></td>
             <td><input type="button" name="" value="9"></td>
@@ -83,17 +115,17 @@
           <tr>
             <td><input type="button" name="" value="Or"></td>
             <td><input type="button" name="" value="Xor"></td>
-            <td><input type="button" name="" value="D" disabled></td>
+            <td><input class="disabled" type="button" name="" value="D" disabled></td>
             <td><input type="button" name="" value="4"></td>
             <td><input type="button" name="" value="5"></td>
             <td><input type="button" name="" value="6"></td>
             <td><input type="button" name="" value="*"></td>
-            <td><input type="button" name="" value=" "></td>
+            <td><input type="button" name="" value="&frac12;"></td>
           </tr>
           <tr>
             <td><input type="button" name="" value="Lsh"></td>
             <td><input type="button" name="" value="Rsh"></td>
-            <td><input type="button" name="" value="E" disabled></td>
+            <td><input class="disabled" type="button" name="" value="E" disabled></td>
             <td><input type="button" name="" value="1"></td>
             <td><input type="button" name="" value="2"></td>
             <td><input type="button" name="" value="3"></td>
@@ -103,7 +135,7 @@
           <tr>
             <td><input type="button" name="" value="Not"></td>
             <td><input type="button" name="" value="End"></td>
-            <td><input type="button" name="" value="F" disabled></td>
+            <td><input class="disabled" type="button" name="" value="F" disabled></td>
             <td colspan="2" id="special2"><input type="button" name="" value="0"></td>
             <td><input type="button" name="" value="."></td>
             <td><input type="button" name="" value="+"></td>
