@@ -205,7 +205,11 @@ li {
 }
 
 .buttons input:hover:not(.disabled) {
-  background: #82B58F;
+  background: #0062f7;
+  opacity: 0.3;
+  color: white;
+  box-shadow: 5px 5px 2px blue;
+  cursor: pointer;
 }
 
 .buttons .disabled{
