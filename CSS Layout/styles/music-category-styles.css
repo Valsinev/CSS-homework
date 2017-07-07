@@ -1,3 +1,7 @@
+body {
+  font-size: 22px;
+}
+
 .img-one, .img-three, .img-two {
   width: 200px;
   height: 150px;
@@ -5,11 +9,16 @@
   float: left;
   margin-top: 23px;
   margin-left: 23px;
+  margin-right: 23px;
+  position: absolute;
+  left: 23px;
+  bottom: 23px;
 }
 
-.container{
-  width: 50%;
-  background-color: lightgrey;
+.container {
+  width: 1000px;
+  background-color: #eeeeee;
+  position: relative;
 }
 
 div {
@@ -29,23 +38,49 @@ div {
 }
 
 .listen-btn {
+  background: url(../images/button.png) round;
   width: 100px;
-  height: 50px;
+  height: 40px;
   position: absolute;
-  right: 120px;
-  bottom: 10px;
+  right: 125px;
+  bottom: 23px;
+  color: white;
+  font-size: 18px;
 }
 
 .add-btn {
-  background-image: url('../images/button.png');
-	background-repeat: no-repeat;
+  background: url(../images/button.png) round;
   width: 100px;
-  height: 50px;
+  height: 40px;
   position: absolute;
-  right: 10px;
-  bottom: 10px;
+  right: 23px;
+  bottom: 23px;
+  color: white;
+  font-size: 18px;
 }
 
-h1{
+h1 {
   margin-left: 20px;
+}
+
+#category .paragraph {
+  width: 350px;
+  height: 146px;
+  right: 150px;
+  top: 23px;
+  position: absolute;
+  overflow: auto;
+  border: none;
+  right: 170px;
+  font-size: 1.2em;
+}
+
+.paragraph p{
+  margin: 0;
+}
+
+#category p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
