@@ -1,0 +1,81 @@
+body,
+header {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+}
+main {
+  width: 660px;
+  border: 1px solid #806850;
+  border-radius: 8px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b3b3b+0,3b3b3b+4,363636+4,3c3c3c+5,3d3d3d+5,3c3c3c+6,393939+6,3d3d3d+6,3d383e+7,393d3e+7,3d4142+8,393a3c+8,383639+9,403e41+9,383c3b+10,383a39+10,3a3839+10,3f3b3c+11,3c3837+12,3a3a38+12,3b3736+13,3b393a+13,343d3a+13,303c3a+14,3a3c3b+14,3a3a3a+18,383838+19,393939+21,363636+22,3c3c3c+22,3b3b3b+100 */
+  background: #3b3b3b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #3b3b3b 0%, #3b3b3b 4%, #363636 4%, #3c3c3c 5%, #3d3d3d 5%, #3c3c3c 6%, #393939 6%, #3d3d3d 6%, #3d383e 7%, #393d3e 7%, #3d4142 8%, #393a3c 8%, #383639 9%, #403e41 9%, #383c3b 10%, #383a39 10%, #3a3839 10%, #3f3b3c 11%, #3c3837 12%, #3a3a38 12%, #3b3736 13%, #3b393a 13%, #343d3a 13%, #303c3a 14%, #3a3c3b 14%, #3a3a3a 18%, #383838 19%, #393939 21%, #363636 22%, #3c3c3c 22%, #3b3b3b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #3b3b3b 0%, #3b3b3b 4%, #363636 4%, #3c3c3c 5%, #3d3d3d 5%, #3c3c3c 6%, #393939 6%, #3d3d3d 6%, #3d383e 7%, #393d3e 7%, #3d4142 8%, #393a3c 8%, #383639 9%, #403e41 9%, #383c3b 10%, #383a39 10%, #3a3839 10%, #3f3b3c 11%, #3c3837 12%, #3a3a38 12%, #3b3736 13%, #3b393a 13%, #343d3a 13%, #303c3a 14%, #3a3c3b 14%, #3a3a3a 18%, #383838 19%, #393939 21%, #363636 22%, #3c3c3c 22%, #3b3b3b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #3b3b3b 0%, #3b3b3b 4%, #363636 4%, #3c3c3c 5%, #3d3d3d 5%, #3c3c3c 6%, #393939 6%, #3d3d3d 6%, #3d383e 7%, #393d3e 7%, #3d4142 8%, #393a3c 8%, #383639 9%, #403e41 9%, #383c3b 10%, #383a39 10%, #3a3839 10%, #3f3b3c 11%, #3c3837 12%, #3a3a38 12%, #3b3736 13%, #3b393a 13%, #343d3a 13%, #303c3a 14%, #3a3c3b 14%, #3a3a3a 18%, #383838 19%, #393939 21%, #363636 22%, #3c3c3c 22%, #3b3b3b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b3b3b', endColorstr='#3b3b3b', GradientType=0);
+  /* IE6-9 */
+}
+main > header {
+  position: relative;
+  padding-bottom: 10px;
+}
+main > header .image {
+  float: left;
+  margin: 9px 20px 15px ;
+  width: 35px;
+  height: 43px;
+}
+main > header h2 {
+  float: left;
+  margin-top: 26px;
+  margin-right: 15px;
+  font-size: 1.5em;
+  color: white;
+}
+.login-data #input {
+  margin-top: 26px;
+  margin-right: 15px;
+  width: 149px;
+}
+.login-data .go {
+  width: 56px;
+  height: 28px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-image: url("../images/button-go.png");
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: -8px;
+}
+.login-data .go:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+article {
+  padding: 0;
+  -webkit-box-shadow: 0 -10px 26px -10px black;
+  -moz-box-shadow: 0 -10px 26px -10px black;
+  box-shadow: 0 -10px 26px -10px black;
+}
+article header h1 {
+  color: #FDD51B;
+  padding-left: 12px;
+  font-size: 1.6em;
+}
+article p {
+  text-align: left;
+  width: 570px;
+  padding-left: 12px;
+  color: #9C9C9C;
+  font-size: 1.08em;
+}
+article p span {
+  color: white;
+}
