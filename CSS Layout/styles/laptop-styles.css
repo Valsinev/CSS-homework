@@ -1,0 +1,91 @@
+aside,
+body,
+div,
+header,
+li,
+main,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 18px;
+}
+body .wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 2px solid #717171;
+  border-radius: 8px;
+  width: 900px;
+}
+body .wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body .wrapper header {
+  font-size: 1.5em;
+  border-bottom: 2px solid #717171;
+  margin-left: 23px;
+  margin-right: 23px;
+  padding: 14px;
+  text-align: center;
+}
+body .wrapper header ul li {
+  display: inline-block;
+  padding-right: 7px;
+}
+body .wrapper header ul li a {
+  color: #04B0F0;
+  font-weight: bold;
+}
+body .wrapper aside {
+  font-size: 1.2em;
+  float: right;
+  padding: 60px 20px;
+  width: 227px;
+  text-align: center;
+  word-spacing: 10px;
+  padding-bottom: 0px;
+}
+body .wrapper aside div {
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
+body .wrapper aside div input {
+  cursor: pointer;
+  width: 200px;
+}
+body .wrapper main {
+  margin: 15px 8px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  border: 2px solid #717171;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 613px;
+}
+body .wrapper main div {
+  display: inline-block;
+  float: left;
+  width: 290px;
+  margin-left: 10px;
+}
+body .wrapper main div img {
+  float: left;
+}
+body .wrapper main div p {
+  padding-top: 10px;
+  text-align: right;
+}
+body .wrapper main fieldset {
+  border: 2px solid #717171;
+}
+body .wrapper main fieldset legend {
+  text-align: center;
+}

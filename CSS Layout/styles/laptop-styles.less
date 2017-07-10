@@ -1,0 +1,110 @@
+// out: laptop-styles.css, sourcemap: true, compress: false
+
+aside,
+body,
+div,
+header,
+li,
+main,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+
+  .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 2px solid #717171;
+    border-radius: 8px;
+    width: 900px;
+
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    header {
+      font-size: 1.5em;
+      border-bottom: 2px solid #717171;
+      margin-left: 23px;
+      margin-right: 23px;
+      padding: 14px;
+      text-align: center;
+
+      ul {
+        li {
+          display: inline-block;
+          padding-right: 7px;
+
+          a {
+            color: #04B0F0;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    aside {
+      font-size: 1.2em;
+      float: right;
+      padding: 60px 20px;
+      width: 227px;
+      text-align: center;
+      word-spacing: 10px;
+      padding-bottom: 0px;
+
+      div {
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 0;
+
+        input {
+          cursor: pointer;
+          width: 200px;
+        }
+      }
+    }
+
+    main {
+      margin: 15px 8px;
+      padding-top: 2px;
+      padding-bottom: 10px;
+      border: 2px solid #717171;
+      float: left;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 613px;
+
+      div {
+        display: inline-block;
+        float: left;
+        width: 290px;
+        margin-left: 10px;
+
+        img {
+          float: left;
+        }
+
+        p {
+          padding-top: 10px;
+          text-align: right;
+        }
+      }
+
+      fieldset {
+        border: 2px solid #717171;
+        legend {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
