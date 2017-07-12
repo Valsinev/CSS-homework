@@ -1,0 +1,151 @@
+aside,
+body,
+div,
+header,
+li,
+main,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+}
+body .wrapper {
+  background: #F1F1F1;
+  position: absolute;
+  width: 1060px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  padding: 3px;
+}
+body .wrapper main {
+  margin: 0 3px;
+  width: 650px;
+  height: 702px;
+  border: 2px solid #909090;
+  background-color: white;
+}
+body .wrapper main input {
+  background-color: #fff;
+  width: 100px;
+  border: 1px solid #000;
+  margin: 5px 0;
+}
+body .wrapper main .tutorial p {
+  font-weight: bold;
+}
+body .wrapper main .tutorial img {
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 110px;
+}
+body .wrapper main > header {
+  margin: 5px;
+  border-bottom: 2px solid #909090;
+}
+body .wrapper main > header h1 {
+  margin-left: 5px;
+}
+body .wrapper main article {
+  margin: 5px;
+}
+body .wrapper main article header {
+  background: #808080;
+  padding: 0;
+}
+body .wrapper main article header h2 {
+  font-size: 1em;
+  color: white;
+  margin: 0 5px;
+}
+body .wrapper main article a {
+  color: #A53A39;
+}
+body .wrapper main .paging {
+  margin: 5px;
+  padding: 5px 5px 5px 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+body .wrapper main .paging input {
+  text-align: center;
+}
+body .wrapper .leftbar {
+  width: 200px;
+}
+body .wrapper .leftbar a {
+  text-decoration: none;
+  color: #000;
+}
+body .wrapper .leftbar header {
+  display: inline;
+}
+body .wrapper .leftbar header img {
+  margin: 12px 5px;
+  width: 20px;
+  float: left;
+}
+body .wrapper .leftbar header h2 {
+  margin: 10px 0;
+}
+body .wrapper .leftbar div {
+  padding-bottom: 5px;
+  margin-left: 5px;
+}
+body .wrapper .leftbar div h3 {
+  font-size: 1em;
+  color: #A53A39;
+  margin: 0;
+}
+body .wrapper .rightbar {
+  width: 200px;
+  text-align: center;
+}
+body .wrapper .rightbar div {
+  border: 2px solid #909090;
+  margin-bottom: 3px;
+}
+body .wrapper .rightbar .styles .styles-btn {
+  background-image: url("../images/25+styles-btn.png");
+  background-repeat: round;
+  width: 120px;
+  height: 50px;
+  margin-top: 2px;
+}
+body .wrapper .rightbar a {
+  color: #A53A39;
+}
+body .wrapper .rightbar ul {
+  list-style: none;
+}
+body .wrapper .rightbar p {
+  margin: 5px 0;
+}
+body .wrapper .rightbar form {
+  display: inline;
+}
+body .wrapper .rightbar form input[type="text"] {
+  width: 120px;
+  margin-top: 10px;
+}
+body .wrapper .rightbar form input[type="button"] {
+  width: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: #fff;
+  text-align: center;
+}
+body .wrapper .rightbar header {
+  background-color: #808080;
+  color: white;
+}
+body .wrapper .rightbar header h2 {
+  margin: 0;
+  font-size: 1em;
+}

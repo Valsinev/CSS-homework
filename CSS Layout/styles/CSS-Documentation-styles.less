@@ -1,0 +1,189 @@
+// out: CSS-Documentation-styles.css, sourcemap: true, compress: false
+
+aside,
+body,
+div,
+header,
+li,
+main,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+
+  .wrapper {
+    background: #F1F1F1;
+    position: absolute;
+    width: 1060px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 3px;
+
+    main {
+      margin: 0 3px;
+      width: 650px;
+      height: 702px;
+      border: 2px solid #909090;
+      background-color: white;
+
+      input {
+        background-color: #fff;
+        width: 100px;
+        border: 1px solid #000;
+        margin: 5px 0;
+      }
+
+      .tutorial {
+        p {
+          font-weight: bold;
+        }
+
+        img {
+          float: left;
+          margin-top: 20px;
+          margin-right: 10px;
+          width: 110px;
+        }
+      }
+
+      > header {
+        margin: 5px;
+        border-bottom: 2px solid #909090;
+
+        h1 {
+          margin-left: 5px;
+        }
+      }
+
+      article {
+        margin: 5px;
+
+        header {
+          background: #808080;
+          padding: 0;
+
+          h2 {
+            font-size: 1em;
+            color: white;
+            margin: 0 5px;
+          }
+        }
+
+        a {
+          color: #A53A39;
+        }
+      }
+
+      .paging {
+        margin: 5px;
+        padding: 5px 5px 5px 0;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+
+        input {
+          text-align: center;
+        }
+      }
+    }
+
+    .leftbar {
+      width: 200px;
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      header {
+        display: inline;
+
+        img {
+          margin: 12px 5px;
+          width: 20px;
+          float: left;
+        }
+
+        h2 {
+          margin: 10px 0;
+        }
+      }
+
+      div {
+        padding-bottom: 5px;
+        margin-left: 5px;
+
+        h3 {
+          font-size: 1em;
+          color: #A53A39;
+          margin: 0;
+        }
+      }
+    }
+
+    .rightbar {
+      width: 200px;
+      text-align: center;
+
+      div {
+        border: 2px solid #909090;
+        margin-bottom: 3px;
+      }
+
+      .styles {
+        .styles-btn {
+          background-image: url("../images/25+styles-btn.png");
+          background-repeat: round;
+          width: 120px;
+          height: 50px;
+          margin-top: 2px;
+        }
+      }
+
+      a {
+        color: #A53A39;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      p {
+        margin: 5px 0;
+      }
+
+      form {
+        display: inline;
+
+        input[type="text"] {
+          width: 120px;
+          margin-top: 10px;
+        }
+
+        input[type="button"] {
+          width: 20px;
+          font-weight: bold;
+          border-radius: 3px;
+          border: 1px solid black;
+          background-color: #fff;
+          text-align: center;
+        }
+      }
+
+      header {
+        background-color: #808080;
+        color: white;
+
+        h2 {
+          margin: 0;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+}
