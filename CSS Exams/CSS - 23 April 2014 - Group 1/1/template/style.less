@@ -1,0 +1,80 @@
+// out: style.css, sourcemap: true, compress: false
+
+a,
+body,
+div,
+header,
+li,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  #wrapper {
+    width: 960px;
+    margin: 0 auto;
+    color: #575E5B;
+
+    header {
+      background-color: #F6F5E9;
+
+      h1 {
+        padding-left: 16px;
+        padding-bottom: 8px;
+        font-size: 16px;
+        float: left;
+        text-transform: uppercase;
+      }
+
+      #nav {
+        padding: 16px 8px;
+
+        ul {
+          float: right;
+
+          li {
+            padding-left: 15px;
+            display: inline-block;
+          }
+        }
+      }
+    }
+
+    #content {
+      h1 {
+        font-size: 24px;
+      }
+      font-size: 14px;
+    }
+
+    #searchBar {
+      font-size: 14px;
+      display: inline-block;
+      color: #C6C6C6;
+      background-color: black;
+      width: 950px;
+      padding: 8px;
+
+      #archives {
+        float: left;
+      }
+
+      #search {
+        float: right;
+      }
+    }
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #C6C6C6;
+}
