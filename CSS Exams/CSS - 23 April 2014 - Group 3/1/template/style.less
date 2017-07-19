@@ -1,0 +1,120 @@
+// out: style.css, sourcemap: true, compress: false
+
+a,
+body,
+div,
+h3,
+h1,
+header,
+li,
+nav,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*
+&:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
+
+body,
+html {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+
+  #wrapper {
+    width: 960px;
+    margin: 0 auto;
+
+    header {
+      #header {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d54900+0,dd6c3b+2,d64900+3,d54900+5,dd6c3b+6,d54900+8,d54900+10,dd6c3b+11,d64900+13,d54900+14,de6c3b+16,d54900+17,d64a00+19,de6c3b+21,d54900+22,d54900+24,de6c3a+25,d54900+27,d64900+29,dd6a37+30,d54900+32,d64900+33,dd6835+35,d54900+37,d54900+38,dc6530+40,d64900+41,d64900+43,db632d+44,d64900+46,d54900+48,da6028+49,d54900+51,d64900+52,da5e24+54,d64900+56,d54900+57,da5a1f+59,d54900+60,d54900+62,d9571a+63,d54900+65,d54900+67,d95514+68,d64900+70,d54900+71,d7510d+73,d64900+75,d54900+100 */
+        background: rgb(213,73,0);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(213,73,0,1) 0%, rgba(221,108,59,1) 2%, rgba(214,73,0,1) 3%, rgba(213,73,0,1) 5%, rgba(221,108,59,1) 6%, rgba(213,73,0,1) 8%, rgba(213,73,0,1) 10%, rgba(221,108,59,1) 11%, rgba(214,73,0,1) 13%, rgba(213,73,0,1) 14%, rgba(222,108,59,1) 16%, rgba(213,73,0,1) 17%, rgba(214,74,0,1) 19%, rgba(222,108,59,1) 21%, rgba(213,73,0,1) 22%, rgba(213,73,0,1) 24%, rgba(222,108,58,1) 25%, rgba(213,73,0,1) 27%, rgba(214,73,0,1) 29%, rgba(221,106,55,1) 30%, rgba(213,73,0,1) 32%, rgba(214,73,0,1) 33%, rgba(221,104,53,1) 35%, rgba(213,73,0,1) 37%, rgba(213,73,0,1) 38%, rgba(220,101,48,1) 40%, rgba(214,73,0,1) 41%, rgba(214,73,0,1) 43%, rgba(219,99,45,1) 44%, rgba(214,73,0,1) 46%, rgba(213,73,0,1) 48%, rgba(218,96,40,1) 49%, rgba(213,73,0,1) 51%, rgba(214,73,0,1) 52%, rgba(218,94,36,1) 54%, rgba(214,73,0,1) 56%, rgba(213,73,0,1) 57%, rgba(218,90,31,1) 59%, rgba(213,73,0,1) 60%, rgba(213,73,0,1) 62%, rgba(217,87,26,1) 63%, rgba(213,73,0,1) 65%, rgba(213,73,0,1) 67%, rgba(217,85,20,1) 68%, rgba(214,73,0,1) 70%, rgba(213,73,0,1) 71%, rgba(215,81,13,1) 73%, rgba(214,73,0,1) 75%, rgba(213,73,0,1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(213,73,0,1) 0%,rgba(221,108,59,1) 2%,rgba(214,73,0,1) 3%,rgba(213,73,0,1) 5%,rgba(221,108,59,1) 6%,rgba(213,73,0,1) 8%,rgba(213,73,0,1) 10%,rgba(221,108,59,1) 11%,rgba(214,73,0,1) 13%,rgba(213,73,0,1) 14%,rgba(222,108,59,1) 16%,rgba(213,73,0,1) 17%,rgba(214,74,0,1) 19%,rgba(222,108,59,1) 21%,rgba(213,73,0,1) 22%,rgba(213,73,0,1) 24%,rgba(222,108,58,1) 25%,rgba(213,73,0,1) 27%,rgba(214,73,0,1) 29%,rgba(221,106,55,1) 30%,rgba(213,73,0,1) 32%,rgba(214,73,0,1) 33%,rgba(221,104,53,1) 35%,rgba(213,73,0,1) 37%,rgba(213,73,0,1) 38%,rgba(220,101,48,1) 40%,rgba(214,73,0,1) 41%,rgba(214,73,0,1) 43%,rgba(219,99,45,1) 44%,rgba(214,73,0,1) 46%,rgba(213,73,0,1) 48%,rgba(218,96,40,1) 49%,rgba(213,73,0,1) 51%,rgba(214,73,0,1) 52%,rgba(218,94,36,1) 54%,rgba(214,73,0,1) 56%,rgba(213,73,0,1) 57%,rgba(218,90,31,1) 59%,rgba(213,73,0,1) 60%,rgba(213,73,0,1) 62%,rgba(217,87,26,1) 63%,rgba(213,73,0,1) 65%,rgba(213,73,0,1) 67%,rgba(217,85,20,1) 68%,rgba(214,73,0,1) 70%,rgba(213,73,0,1) 71%,rgba(215,81,13,1) 73%,rgba(214,73,0,1) 75%,rgba(213,73,0,1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(213,73,0,1) 0%,rgba(221,108,59,1) 2%,rgba(214,73,0,1) 3%,rgba(213,73,0,1) 5%,rgba(221,108,59,1) 6%,rgba(213,73,0,1) 8%,rgba(213,73,0,1) 10%,rgba(221,108,59,1) 11%,rgba(214,73,0,1) 13%,rgba(213,73,0,1) 14%,rgba(222,108,59,1) 16%,rgba(213,73,0,1) 17%,rgba(214,74,0,1) 19%,rgba(222,108,59,1) 21%,rgba(213,73,0,1) 22%,rgba(213,73,0,1) 24%,rgba(222,108,58,1) 25%,rgba(213,73,0,1) 27%,rgba(214,73,0,1) 29%,rgba(221,106,55,1) 30%,rgba(213,73,0,1) 32%,rgba(214,73,0,1) 33%,rgba(221,104,53,1) 35%,rgba(213,73,0,1) 37%,rgba(213,73,0,1) 38%,rgba(220,101,48,1) 40%,rgba(214,73,0,1) 41%,rgba(214,73,0,1) 43%,rgba(219,99,45,1) 44%,rgba(214,73,0,1) 46%,rgba(213,73,0,1) 48%,rgba(218,96,40,1) 49%,rgba(213,73,0,1) 51%,rgba(214,73,0,1) 52%,rgba(218,94,36,1) 54%,rgba(214,73,0,1) 56%,rgba(213,73,0,1) 57%,rgba(218,90,31,1) 59%,rgba(213,73,0,1) 60%,rgba(213,73,0,1) 62%,rgba(217,87,26,1) 63%,rgba(213,73,0,1) 65%,rgba(213,73,0,1) 67%,rgba(217,85,20,1) 68%,rgba(214,73,0,1) 70%,rgba(213,73,0,1) 71%,rgba(215,81,13,1) 73%,rgba(214,73,0,1) 75%,rgba(213,73,0,1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#d54900', endColorstr='#d54900',GradientType=0 );
+        /* IE6-9 */
+        color: #fff;
+        padding: 15px 15px 15px 50px;
+
+        &:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        #nav {
+          float: left;
+
+          ul {
+            padding-top: 5px;
+            list-style-type: none;
+
+            li {
+              margin-right: 20px;
+              display: inline-block;
+
+              a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 18px;
+                text-transform: capitalize;
+              }
+            }
+          }
+        }
+
+        h1 {
+          font-size: 28px;
+          float: right;
+        }
+      }
+
+      #archive {
+        padding-top: 6px;
+        ul {
+          padding-right: 5px;
+          float: right;
+
+          li {
+            display: inline;
+
+            a {
+              padding-left: 10px;
+              text-decoration: none;
+              color: #000;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    #content {
+      color: #333333;
+      h1 {
+        padding: 17px 0px;
+        font-size: 24px;
+      }
+      article{
+        text-align: justify;
+        p{
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+.clear {
+  clear: both;
+}

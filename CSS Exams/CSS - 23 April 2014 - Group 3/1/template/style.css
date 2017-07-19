@@ -1,0 +1,118 @@
+a,
+body,
+div,
+h3,
+h1,
+header,
+li,
+nav,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*
+&:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
+body,
+html {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+}
+body #wrapper,
+html #wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+body #wrapper header #header,
+html #wrapper header #header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d54900+0,dd6c3b+2,d64900+3,d54900+5,dd6c3b+6,d54900+8,d54900+10,dd6c3b+11,d64900+13,d54900+14,de6c3b+16,d54900+17,d64a00+19,de6c3b+21,d54900+22,d54900+24,de6c3a+25,d54900+27,d64900+29,dd6a37+30,d54900+32,d64900+33,dd6835+35,d54900+37,d54900+38,dc6530+40,d64900+41,d64900+43,db632d+44,d64900+46,d54900+48,da6028+49,d54900+51,d64900+52,da5e24+54,d64900+56,d54900+57,da5a1f+59,d54900+60,d54900+62,d9571a+63,d54900+65,d54900+67,d95514+68,d64900+70,d54900+71,d7510d+73,d64900+75,d54900+100 */
+  background: #d54900;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d54900 0%, #dd6c3b 2%, #d64900 3%, #d54900 5%, #dd6c3b 6%, #d54900 8%, #d54900 10%, #dd6c3b 11%, #d64900 13%, #d54900 14%, #de6c3b 16%, #d54900 17%, #d64a00 19%, #de6c3b 21%, #d54900 22%, #d54900 24%, #de6c3a 25%, #d54900 27%, #d64900 29%, #dd6a37 30%, #d54900 32%, #d64900 33%, #dd6835 35%, #d54900 37%, #d54900 38%, #dc6530 40%, #d64900 41%, #d64900 43%, #db632d 44%, #d64900 46%, #d54900 48%, #da6028 49%, #d54900 51%, #d64900 52%, #da5e24 54%, #d64900 56%, #d54900 57%, #da5a1f 59%, #d54900 60%, #d54900 62%, #d9571a 63%, #d54900 65%, #d54900 67%, #d95514 68%, #d64900 70%, #d54900 71%, #d7510d 73%, #d64900 75%, #d54900 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #d54900 0%, #dd6c3b 2%, #d64900 3%, #d54900 5%, #dd6c3b 6%, #d54900 8%, #d54900 10%, #dd6c3b 11%, #d64900 13%, #d54900 14%, #de6c3b 16%, #d54900 17%, #d64a00 19%, #de6c3b 21%, #d54900 22%, #d54900 24%, #de6c3a 25%, #d54900 27%, #d64900 29%, #dd6a37 30%, #d54900 32%, #d64900 33%, #dd6835 35%, #d54900 37%, #d54900 38%, #dc6530 40%, #d64900 41%, #d64900 43%, #db632d 44%, #d64900 46%, #d54900 48%, #da6028 49%, #d54900 51%, #d64900 52%, #da5e24 54%, #d64900 56%, #d54900 57%, #da5a1f 59%, #d54900 60%, #d54900 62%, #d9571a 63%, #d54900 65%, #d54900 67%, #d95514 68%, #d64900 70%, #d54900 71%, #d7510d 73%, #d64900 75%, #d54900 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #d54900 0%, #dd6c3b 2%, #d64900 3%, #d54900 5%, #dd6c3b 6%, #d54900 8%, #d54900 10%, #dd6c3b 11%, #d64900 13%, #d54900 14%, #de6c3b 16%, #d54900 17%, #d64a00 19%, #de6c3b 21%, #d54900 22%, #d54900 24%, #de6c3a 25%, #d54900 27%, #d64900 29%, #dd6a37 30%, #d54900 32%, #d64900 33%, #dd6835 35%, #d54900 37%, #d54900 38%, #dc6530 40%, #d64900 41%, #d64900 43%, #db632d 44%, #d64900 46%, #d54900 48%, #da6028 49%, #d54900 51%, #d64900 52%, #da5e24 54%, #d64900 56%, #d54900 57%, #da5a1f 59%, #d54900 60%, #d54900 62%, #d9571a 63%, #d54900 65%, #d54900 67%, #d95514 68%, #d64900 70%, #d54900 71%, #d7510d 73%, #d64900 75%, #d54900 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d54900', endColorstr='#d54900', GradientType=0);
+  /* IE6-9 */
+  color: #fff;
+  padding: 15px 15px 15px 50px;
+}
+body #wrapper header #header:after,
+html #wrapper header #header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body #wrapper header #header #nav,
+html #wrapper header #header #nav {
+  float: left;
+}
+body #wrapper header #header #nav ul,
+html #wrapper header #header #nav ul {
+  padding-top: 5px;
+  list-style-type: none;
+}
+body #wrapper header #header #nav ul li,
+html #wrapper header #header #nav ul li {
+  margin-right: 20px;
+  display: inline-block;
+}
+body #wrapper header #header #nav ul li a,
+html #wrapper header #header #nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+body #wrapper header #header h1,
+html #wrapper header #header h1 {
+  font-size: 28px;
+  float: right;
+}
+body #wrapper header #archive,
+html #wrapper header #archive {
+  padding-top: 6px;
+}
+body #wrapper header #archive ul,
+html #wrapper header #archive ul {
+  padding-right: 5px;
+  float: right;
+}
+body #wrapper header #archive ul li,
+html #wrapper header #archive ul li {
+  display: inline;
+}
+body #wrapper header #archive ul li a,
+html #wrapper header #archive ul li a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 10px;
+}
+body #wrapper #content,
+html #wrapper #content {
+  color: #333333;
+}
+body #wrapper #content h1,
+html #wrapper #content h1 {
+  padding: 17px 0px;
+  font-size: 24px;
+}
+body #wrapper #content article,
+html #wrapper #content article {
+  text-align: justify;
+}
+body #wrapper #content article p,
+html #wrapper #content article p {
+  margin-bottom: 10px;
+}
+.clear {
+  clear: both;
+}
